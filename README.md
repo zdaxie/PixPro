@@ -54,8 +54,8 @@ This repo is an official implementation of ["Propagate Yourself: Exploring Pixel
 |MoCo v2|800|ResNet-50|57.6|82.7|64.4|-|
 |InfoMin|200|ResNet-50|57.6|82.7|64.6|-|
 |InfoMin|800|ResNet-50|57.5|82.5|64.0|-|
-|[PixPro(Ours)](tools/pixpro_base_r50_100ep.sh)|100|ResNet-50|58.8|83.0|66.5|[config](transfer/detection/configs/Pascal_VOC_R_50_C4_24k_PixPro.yaml) \| [model](https://drive.google.com/file/d/1yk-B5qo_jYqrMC_NcnlY5Z7OqWlJj2Nr/view?usp=sharing)|
-|[PixPro(Ours)](tools/pixpro_base_r50_400ep.sh)|400|ResNet-50|60.2|83.8|67.7|[config](transfer/detection/configs/Pascal_VOC_R_50_C4_24k_PixPro.yaml) \| [model](https://drive.google.com/file/d/1qoiKhAKI-KaWDj1MGHaPrgsQ4dr0RDjh/view?usp=sharing)|
+|[PixPro (ours)](tools/pixpro_base_r50_100ep.sh)|100|ResNet-50|58.8|83.0|66.5|[config](transfer/detection/configs/Pascal_VOC_R_50_C4_24k_PixPro.yaml) \| [model](https://drive.google.com/file/d/1yk-B5qo_jYqrMC_NcnlY5Z7OqWlJj2Nr/view?usp=sharing)|
+|[PixPro (ours)](tools/pixpro_base_r50_400ep.sh)|400|ResNet-50|60.2|83.8|67.7|[config](transfer/detection/configs/Pascal_VOC_R_50_C4_24k_PixPro.yaml) \| [model](https://drive.google.com/file/d/1qoiKhAKI-KaWDj1MGHaPrgsQ4dr0RDjh/view?usp=sharing)|
 
 ### _COCO object detection_
 
@@ -70,9 +70,9 @@ This repo is an official implementation of ["Propagate Yourself: Exploring Pixel
 |MoCo v2|800|ResNet-50|1x|40.4|36.4|-|
 |InfoMin|200|ResNet-50|1x|40.6|36.7|-|
 |InfoMin|800|ResNet-50|1x|40.4|36.6|-|
-|[PixPro(Ours)](tools/pixpro_base_r50_100ep.sh)|100|ResNet-50|1x|40.8|36.8|[config](transfer/detection/configs/COCO_R_50_FPN_1x.yaml) \| [model](https://drive.google.com/file/d/1v5gYT-jjY9n-rkvbocQNDuv0UGxD3c7z/view?usp=sharing)|
-|PixPro(Ours)|100*|ResNet-50|1x|41.3|37.1|-|
-|PixPro(Ours)|400*|ResNet-50|1x|41.4|37.4|-|
+|[PixPro (ours)](tools/pixpro_base_r50_100ep.sh)|100|ResNet-50|1x|40.8|36.8|[config](transfer/detection/configs/COCO_R_50_FPN_1x.yaml) \| [model](https://drive.google.com/file/d/1v5gYT-jjY9n-rkvbocQNDuv0UGxD3c7z/view?usp=sharing)|
+|PixPro (ours)|100*|ResNet-50|1x|41.3|37.1|-|
+|PixPro (ours)|400*|ResNet-50|1x|41.4|37.4|-|
 
 \* Indicates methods with instance branch.
 
@@ -87,8 +87,8 @@ This repo is an official implementation of ["Propagate Yourself: Exploring Pixel
 |MoCo v2|800|ResNet-50|1x|39.5|34.5|-|
 |InfoMin|200|ResNet-50|1x|39.0|34.1|-|
 |InfoMin|800|ResNet-50|1x|38.8|33.8|-|
-|[PixPro(Ours)](tools/pixpro_base_r50_100ep.sh)|100|ResNet-50|1x|40.0|34.8|[config](transfer/detection/configs/COCO_R_50_C4_1x.yaml) \| [model](https://drive.google.com/file/d/1V_IUmaoxGYqq6Dty7AadoYHQgSruWixP/view?usp=sharing)|
-|[PixPro(Ours)](tools/pixpro_base_r50_400ep.sh)|400|ResNet-50|1x|40.5|35.3|[config](transfer/detection/configs/COCO_R_50_C4_1x.yaml) \| [model](https://drive.google.com/file/d/18zjhg7e_QZHI2JgNWjhrR90DFPJcpQzi/view?usp=sharing)|
+|[PixPro (ours)](tools/pixpro_base_r50_100ep.sh)|100|ResNet-50|1x|40.0|34.8|[config](transfer/detection/configs/COCO_R_50_C4_1x.yaml) \| [model](https://drive.google.com/file/d/1V_IUmaoxGYqq6Dty7AadoYHQgSruWixP/view?usp=sharing)|
+|[PixPro (ours)](tools/pixpro_base_r50_400ep.sh)|400|ResNet-50|1x|40.5|35.3|[config](transfer/detection/configs/COCO_R_50_C4_1x.yaml) \| [model](https://drive.google.com/file/d/18zjhg7e_QZHI2JgNWjhrR90DFPJcpQzi/view?usp=sharing)|
 
 ## Getting started
 
@@ -172,11 +172,11 @@ More models and logs will be released!
 
 ## Acknowledgement
 
-Our testbed builds upon several existing publicly available code. Specifically, we have modified and integrated the following code into this project:
+Our testbed builds upon several existing publicly available codes. Specifically, we have modified and integrated the following code into this project:
 
 * https://github.com/facebookresearch/moco
 * https://github.com/HobbitLong/PyContrast
 
 ## Contributing to the project
 
-Any pull requests or issues are welcome.
+Any pull requests or issues are welcomed.
